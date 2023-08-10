@@ -1,0 +1,242 @@
+.team #heading {
+    text-align: left;
+    padding: 0;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .item .heading {
+    color: #6DF1B2;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 65px;
+    text-align: center;
+}
+
+.team .item .desc {
+    margin-top: 20px;
+    color: #EEF2F2;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.team .items {
+    margin-top: 50px;
+}
+
+.team .teamcard {
+    background-color: #315352;
+    border-radius: 0px 26px;
+}
+
+
+.team .items {
+    padding: 40px;
+    text-align: center;
+}
+
+.team h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #1eb2a6;
+}
+
+.team h1 span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #000;
+}
+
+.team p {
+    color: grey;
+    margin: 40px 0;
+}
+
+.team .detailsButton {
+    border-radius: 5px;
+    background: #6DF1B2;
+    display: inline-flex;
+    padding: 15px 29.39px 15px 30px;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: #0F1B1A;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.detailsButton:hover {
+
+    background: #0F1B1A;
+    color: #6DF1B2;
+
+}
+
+.nameLabel {
+
+    color: #6DF1B2;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    margin-top: 40px;
+}
+
+.nameDesignation {
+    color: #EEF2F2;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.team .social {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #0F1B1A;
+    background-color: #6DF1B2;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.team .social:hover {
+    cursor: pointer;
+    background-color: #0F1B1A;
+    color: #6DF1B2;
+}
+
+
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kyc {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.newsletter {
+    width: 600px;
+    height: 260.16px;
+    max-width: 600px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #EEF2F2;
+    background: #EEF2F2;
+}
+
+.newsletter p {
+    color: #0F1B1A;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+
+.newsletterForm {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 520px;
+}
+
+.newsletterForm input {
+    flex-grow: 1;
+    height: 42px;
+    padding: 8px 12px;
+    border: 1px solid #6DF1B2;
+    margin-left: 40px;
+    width: 346px;
+}
+
+.subscribeButton {
+    border-radius: 4px;
+    background: #6DF1B2;
+    padding: 7px 20px;
+    color: #315452;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    margin-top: 1px;
+    width: 163px;
+}
+
+.poweredBy {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.poweredBy p {
+    margin: 0;
+    color: #808C97;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.poweredBy img {
+    width: 18px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/*--------------faq-------------*/
+.faq .container {
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+.faq .box {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.faq button {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.faq h2 {
+    font-weight: 500;
+}
+
+.faq p {
+    padding: 20px;
+}
+
+.faq .accordion:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+}
